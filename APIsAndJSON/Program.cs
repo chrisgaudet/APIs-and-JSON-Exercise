@@ -1,10 +1,17 @@
-﻿namespace APIsAndJSON
+﻿using Newtonsoft.Json.Linq;
+using System.Text.Json.Nodes;
+
+namespace APIsAndJSON
 {
     public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World");
+            Quotes.YeQuotes();
+
+            Console.WriteLine("");
+
+            Quotes.RonsQuotes();
         }
     }
 }
