@@ -8,9 +8,17 @@ namespace APIsAndJSON
         static void Main(string[] args)
         {
             Quotes.YeQuotes();
+            Quotes.YeQuotes();
+            Quotes.YeQuotes();
+            Quotes.YeQuotes();
+            Quotes.YeQuotes();
 
-            Console.WriteLine("");
+            Console.WriteLine("----------------------");
 
+            Quotes.RonsQuotes();
+            Quotes.RonsQuotes();
+            Quotes.RonsQuotes();
+            Quotes.RonsQuotes();
             Quotes.RonsQuotes();
         }
     }
